@@ -1,0 +1,44 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(128,128,128,0);
+border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: lightgrey;
+}
+body {
+background-image: url("https://w.wallhaven.cc/full/wy/wallhaven-wyg8w7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover ;
+}
+h1 {
+font-family: 'Josefin Sans', sans-serif;
+font-size: 600%;
+color: white;
+text-align: center;
+}
+
+div {
+display: block;
+text-align: center;
+float: center;
+border-radius: 100%;
+}
