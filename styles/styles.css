@@ -1,69 +1,169 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color:rgb(0,0,0,0);
-border-radius: 5px;
-    font-family: 'Roboto', sans-serif;
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-
-li {
-  float: right;
+#search-box {
+  width: 66vw;
+  border-color: green;
+  border-width: 0px;
+  border-radius: 0px;
+  padding: 7px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
 }
-
-li a {
-  display: block;
-  color: white;
+.SBOX {
+  border-color: black;
+  border-width: 50px;
+  background-color: white;
+  width: 80vw;
+  border-radius: 50px;
+  padding: 10px;
+  align-items: center;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  flex-wrap: wrap;
+}
+.SBOX:hover {
+  text-shadow: black;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: rgb(120,120,120,0.5);
-}
-body {
-background-image: url("https://w.wallhaven.cc/full/wy/wallhaven-wyg8w7.jpg");
-  background-repeat: no-repeat;
-  background-size: cover ;
-}
-h1 {
-font-family: 'Josefin Sans', sans-serif;
-font-size: 600%;
-color: white;
-text-align: center;
+#aab {
+  padding: 20px;
+  max-height: 160px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #222;
 }
 
-div {
-display: block;
-text-align: center;
-float: center;
-border-radius: 0;
+#aad { 
+  width: auto;
+  max-width: 584px;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 6px;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #222;
 }
-.bot-bar {
-  position: fixed;
-  bottom: 0;
+#aae {
+  height: 44px;
+  margin: 0 auto;
+  background: #fff;
+display: flex;
+border: 1px solid #dfe1e5;
+box-shadow: none;
+border-radius: 24px;
+z-index: 3;
+height: 44px;
+margin: 0 auto;
+width: 482px;
+width: auto;
+font-size: 14px;
+font-family: arial,sans-serif;
+color: #222;
+}
+#aaf {
+  flex: 1;
+display: flex;
+padding: 5px 8px 0 16px;
+padding-left: 14px;
+font-size: 14px;
+font-family: arial,sans-serif;
+color: #222;
+}
+
+#aag {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+  font-size: 14px;
+font-family: arial,sans-serif;
+color: #222;
+}
+#aah {
+  margin: auto;
+}
+#aai {
+  margin-top: 3px;
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  fill: currentColor;
+  height: 24px;
+  line-height: 24px;
+  position: relative;
+}
+#aaj {
+  display: block;
+  height: 100%;
   width: 100%;
-background-color: rgb(0,0,0,0.5);
-
 }
-.bot-el {
-  float: left;
-
+#aak {
+  color: #9aa0a6;
 }
 
-.bot-al .bot-el {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-	
+#aba {
+  display: flex;
+flex: 1;
+flex-wrap: wrap;
 }
 
-/* Change the link color to #111 (black) on hover */
-.bot-al .bot-el:hover {
-  background-color: blue;
+#abb {
+  color: transparent;
+flex: 100%;
+white-space: pre;
+height: 34px;
+}
+#abc {
+  background-color: transparent;
+border: none;
+margin: 0;
+    margin-top: 0px;
+padding: 0;
+color: rgba(0,0,0,.87);
+word-wrap: break-word;
+outline: none;
+display: flex;
+flex: 100%;
+tap-highlight-color: transparent;
+margin-top: -37px;
+height: 34px;
+font-size: 16px;
+width: 76vw;
+}
+
+#abd {
+  display: flex;
+  flex: 0 0 auto;
+  margin-top: -5px;
+  align-items: stretch;
+  flex-direction: row;
+}
+#FPdoLc {
+  height: 70px;
+  padding-top: 18px;
+  top: 53px;
+z-index: 0;
+text-align: center;
+}
+#gN089b {
+  background-color: #f8f9fa;
+border: 1px solid #f8f9fa;
+border-radius: 4px;
+color: #3c4043;
+font-family: arial,sans-serif;
+font-size: 14px;
+margin: 11px 4px;
+padding: 0 16px;
+line-height: 27px;
+height: 36px;
+min-width: 54px;
+text-align: center;
+cursor: pointer;
+user-select: none;
 }
