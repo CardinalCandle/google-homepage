@@ -3,7 +3,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:rgb(128,128,128,0);
+  background-color:rgb(0,0,0,0);
 border-radius: 5px;
     font-family: 'Roboto', sans-serif;
 }
@@ -22,7 +22,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: lightgrey;
+  background-color: rgb(120,120,120,0.5);
 }
 body {
 background-image: url("https://w.wallhaven.cc/full/wy/wallhaven-wyg8w7.jpg");
@@ -40,5 +40,30 @@ div {
 display: block;
 text-align: center;
 float: center;
-border-radius: 100%;
+border-radius: 0;
+}
+.bot-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+background-color: rgb(0,0,0,0.5);
+
+}
+.bot-el {
+  float: left;
+
+}
+
+.bot-al .bot-el {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	
+}
+
+/* Change the link color to #111 (black) on hover */
+.bot-al .bot-el:hover {
+  background-color: blue;
 }
