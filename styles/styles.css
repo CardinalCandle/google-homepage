@@ -69,17 +69,143 @@ li #nave:hover {
 
 }
 #GH {
-  
+  display: flex;
   margin: auto;
-  display: block;
+  width: auto;
+  flex-direction: row;
   margin-left: 7%;
   margin-right: 7%;
   padding: 10px;
-  border-color: black;
-  border-width: 10px;
   border-radius: 25px;
+  outline: lightgray;
+  outline-width: 1px;
+  outline-style: solid;
   
 }
 #GH:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#sbox {
+  opacity: 0.5;
+  max-width:40%;
+  height:auto;
+  padding-top: -1vh;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+}
+
+#textbox {
+  max-width: 100%;
+width:65vw;
+  height:auto;
+  padding-top: -1vh;
+  border-style: hidden;
+  border-width: -1px;
+  box-shadow: transparent;
+}
+#textbox:selection {
+  border-width: 0;
+  border-color: turquoise;
+  box-shadow: transparent;
+}
+.no-outline:focus {
+  outline: none;
+}
+input {
+  outline: none;
+}
+
+#gsearch{
+  outline: none;
+  border-style: hidden;
+  padding: 15px 25px;
+  color: gray;
+  background-color: rgb(126, 126, 126,0.1);
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#gsflb {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  margin: auto;
+  width: 40%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  justify-items: center;
+  align-items: center;
+}
+#sep {
+  padding-left: 5px;
+  padding-right: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+#BOTBAR {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(128, 128, 128,0.2);
+
+}
+#botbarl {
+  display: block;
+  width: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding: 14px 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#botbarr {
+  width: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding: 14px 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  padding: 10px;
+}
+#bot1a {
+  text-decoration: none;
+  padding: 5px;
+  float: left;
+  color: gray;
+
+}
+#bot1a:hover {
+  text-decoration: underline;
+}
+#bot2a {
+  text-decoration: none;
+  padding: 5px;
+  float: right;
+  display: block;
+  color: gray;
+}
+#bot2a:hover {
+  text-decoration: underline;
 }
