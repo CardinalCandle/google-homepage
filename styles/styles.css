@@ -1,0 +1,85 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li #nave {
+  display: block;
+  color: rgb(0,0,0,0.8);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+li #nave:hover {
+  text-decoration: underline;
+}
+#apps {
+  opacity: 0.5;
+  max-width:50%;
+  height:auto;
+  padding-top: -1vh;
+
+}
+
+#signin {
+  background-color: #1a73e8;
+  padding: 10px 25px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+#signin:hover {
+  background-color: #2b7de9;
+  text-decoration: none;
+}
+
+#nave2 {
+  margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150%;
+}
+
+#nave3 {
+  margin: auto;
+}
+#logo {
+  margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+
+}
+#GH {
+  
+  margin: auto;
+  display: block;
+  margin-left: 7%;
+  margin-right: 7%;
+  padding: 10px;
+  border-color: black;
+  border-width: 10px;
+  border-radius: 25px;
+  
+}
+#GH:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
